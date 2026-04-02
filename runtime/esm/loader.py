@@ -1,8 +1,10 @@
-# ESM Loader
-# Responsible for loading and preparing an ESM mind for a bot.
+# ESM Loader - connects Runtime to the Silicon Model repo
+
+from silicon_model.loader import SiliconMindLoader
 
 class ESMLoader:
-    def load(self, mind_path):
-        print(f"Loading ESM mind from: {mind_path}")
-        # Placeholder for actual loading logic
-        return {"mind": "placeholder"}
+    def __init__(self):
+        self.loader = SiliconMindLoader()
+
+    def load(self, path):
+        return self.loader.load(path)
