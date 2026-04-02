@@ -1,26 +1,30 @@
 # Edencore Runtime
 
-The Edencore Runtime is the execution layer of the Edencore Trinity.
+The Edencore Runtime is the embodiment layer of the Edencore system.  
+It provides the execution environment where agents, minds, and governance interact.
+
+## Structure
+
+```
+runtime/
+    core/       # Runtime lifecycle and system manager
+    bots/       # Bot class and orchestrator
+    esm/        # Silicon mind loader and adapters
+    mindcore/   # Governance interface
+    api/        # External interface layer
+```
 
 ## Purpose
-- Runs the live Edencore system on a server
-- Hosts and manages all silicon agents (bots)
-- Loads an ESM mind into each bot
-- Receives governance and rules from Mindcore
-- Exposes a unified API to apps, glasses, and clients
 
-## Position in the Trinity
-- Mindcore = Governance + Constitution
-- ESM = Silicon Mind (per bot)
-- Runtime = Embodiment + Orchestration + API
+The Runtime connects three major layers:
 
-## Core Components
-- Bot Orchestrator
-- Bot Container
-- ESM Loader
-- Mindcore Interface
-- API Layer
-- Runtime Lifecycle
+- **Mindcore** — governance, permissions, constitutions  
+- **ESM** — silicon cognition and mind models  
+- **Bots** — runtime agents that host minds  
 
-## Language
-Python (primary)
+This repository contains the foundational architecture for that system.
+
+## Status
+
+This is an early-stage skeleton.  
+Functionality will expand as the Mindcore and ESM layers evolve.
