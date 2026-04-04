@@ -1,8 +1,8 @@
-#To Do List
+# To Do List
 
 Note: Whether this file should be in edencore-OS or runtime is a choice..not sure the best choice but considering it's about updates, runtime repo has been chosen.
 
-Updates
+# Updates
 
 1. Should the constitution (soul) all found in Mindcore be updated in the future or remain fixed is an issue but generally, no, it stays fixed.
 
