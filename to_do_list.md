@@ -21,7 +21,9 @@ Note: Whether this file should be in edencore-OS or runtime is a choice..not sur
 
 5. Finally, to build edencore such a good way that updates are not too frequent.
 
-To do lists are an attempt to list and make points on lots of matters and principles that a final build might not include otherwise.
+# Final Thought: 
+
+To_do_lists are an attempt to list and make points on lots of matters and principles that a final build might not include otherwise.
 
 
 
