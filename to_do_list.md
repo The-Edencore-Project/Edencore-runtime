@@ -25,6 +25,9 @@ Note: Whether this file should be in edencore-OS or runtime is a choice..not sur
 
 To_do_lists are an attempt to list and make points on lots of matters and principles that a final build might not include otherwise.
 
+# Too much or too little?
+
+The Edencore project has so many md files that a programmer (Mico) has enough material to work with. Better too much than too little!
 
 
 
